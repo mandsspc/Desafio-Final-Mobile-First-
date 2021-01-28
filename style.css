@@ -80,7 +80,7 @@
 .text-one {
     font-size: 2.2em;
     color: #F1F1F4;
-    margin: 6rem;
+    margin: 6rem 0;
 }
 
 .text-main-blue {
@@ -213,14 +213,14 @@
 }
 
 .box-circle {
-    width: 30%;
+    width: 38%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 6rem;
     margin-bottom: 8rem;
 }
 
-.image-circle-1 {
+.image-circle-black-1 {
     background-color: black;
     border-radius: 50%;
     width: 1.5rem;
@@ -228,7 +228,7 @@
     margin-top: 1rem;
 }
 
-.image-circle {
+.image-circle-black {
     background-color: black;
     border-radius: 50%;
     width: 2rem;
@@ -284,7 +284,7 @@
 
 .title-associate-program {
     color: #A4DAF2;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: 600;
 }
 
@@ -329,10 +329,228 @@
 }
 
 .box-text-second-part-blue {
+    margin-top: 6rem;
     width: 80%;
-    height: 90vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.title-testimonial {
+    color: #9FB4EB;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+.subtitle-testimonial {
+    color: #F1F1F4;
+    font-size: 3.5em;
+    line-height: 6rem;
+    font-weight: 600;
+}
+
+.paragraph-testimonial {
+    color: #9FB4EB;
+    font-size: 3em;
+    width: 84%;
+    line-height: 5rem;
+    font-weight: 400;
+}
+
+.paragraph-testimonial-second {
+    color: #F1F1F4;
+    font-size: 3em;
+    width: 84%;
+    line-height: 4.5rem;
+    font-weight: 600;
+}
+
+.container-person-name-job {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.box-individually-person {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.person {
+    width: 13rem;
+}
+
+.name-job {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: #9FB4EB;
+    font-size: 2.8em;
+}
+
+.job {
+    color: #9FB4EB;
+    font-size: 2.2em;
+    font-weight: 300;
+}
+
+.image-circle-white-1 {
+    background-color: white;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.image-circle-white {
+    background-color: white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.box-text-start-learning {
+    width: 80%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title-start-learning {
+    color: #F1F1F4;
+    font-size: 4em;
+}
+
+.subtitle-start-learning {
+    color: #F1F1F4;
+    font-size: 3.5em;
+    line-height: 6rem;
+    font-weight: 600;
+}
+
+.paragraph-start-learning {
+    color: #F1F1F4;
+    font-size: 2.9em;
+}
+
+.container-buy-cursor-slide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-buy-cursor {
+    background-color: #F1F1F4;
+    width: 80%;
+    height: 73vh;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 50px;
+}
+
+.box-title-cursor {
+    width: 100%;
+    height: 10vh;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-buy-cursor {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.value-buy-cursor {
+    color: aquamarine;
+    font-size: 4em;
+    margin-top: 3rem;
+    font-weight: 400;
+}
+
+.box-points-buy-cursor {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+    height: 45vh;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.item-buy-cursor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.image-ok-buy-cursor {
+    width: 6rem;
+}
+
+.description-buy-cursor {
+    font-size: 2.6em;
+    margin-left: 2rem;
+}
+
+.box-button-buy-cursor {
+    display: flex;
+    justify-content: center;
+}
+
+.button-buy-cursor {
+    background-color: #12D692;
+    width: 80%;
+    height: 9rem;
+    color: #F1F1F4;
+    font-size: 2.4em;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    top: 4rem;
+}
+
+.box-circle-buy {
+    width: 38%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 16rem 0;
+}
+
+.container-before-footer {
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title-before-footer {
+    font-size: 5em;
+    line-height: 7rem;
+    font-weight: 500;
+    width: 68%;
+}
+
+.paragraph-before-footer {
+    font-size: 3em;
+    width: 69%;
+    line-height: 5.5rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
 }
