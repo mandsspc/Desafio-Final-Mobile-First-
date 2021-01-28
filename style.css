@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-nav {
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-nav {
+    overflow: hidden;
+    position: relative;
+}
+
+#myLinks {
+    display: none;
+    position: fixed;
+    margin-top: 23px;
+    width: 100%;
+}
+  
+.icon-hamburguer {
+    color: black;
+    text-decoration: none;
+    font-size: 4em;
+    display: block;
+    margin-left: 2rem;
+}
+
+.link-nav {
+    color: #F1F1F4;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2.2em;
+    display: block;
+    text-align: center;
+    background-color: rgb(70, 130, 180);
+}
+
+.link-nav:hover {
+    background-color: #ddd;
+    color :black;
+}
+
+.button-nav {
+    background-color: #12D692;
+    width: 17rem;
+    height: 4.5rem;
+    border: none;
+    border-radius: 13px;
+    font-size: 23px;
+    font-weight: 400;
+    color: #F1F1F4;
+    margin-right: 2rem;
+}
+
+.box-background-blue {
+    background-color: #182D7C;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-text-blue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-one {
+    font-size: 2.2em;
+    color: #F1F1F4;
+    margin: 6rem;
+}
+
+.text-main-blue {
+    width: 85%;
+    font-size: 6.5em;
+    color: #F1F1F4;
+}
+
+.background-notbook {
+    background-image: url(assets/pcei.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 70%;
+    height: 56rem;
+    margin-top: 10rem;
+}
+
+.details-notbook {
+    width: 18rem;
+    position: relative;
+    bottom: 3rem;
+    left: 19rem;
+}
+
+.text-box-blue-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph-blue {
+    font-size: 2em;
+    color: #F1F1F4;
+    width: 93%;
+    line-height: 5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+}
+
+.box-text-first-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box-firt {
+    color: #12D692;
+    font-size: 2.8em;
+    width: 100%;
+    font-weight: 500;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    text-transform: capitalize;
+    padding: 2rem;
+}
+
+.subtitle-box-firt {
+    font-size: 4.8em;
+    width: 76%;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+
+.paragraph-box-firt {
+    font-size: 2em;
+    width: 95%;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+.section-slide-vuejs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-image-Vuejs {
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.image-vuejs {
+    width: 49.5rem;
+}
+
+.box-text-vuejs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.title-vuejs {
+    font-weight: 400;
+    font-size: 3.5em;
+}
+
+.paragraph-vuejs {
+    font-size: 2.5em;
+    width: 70%;
+    line-height: 7rem;
+}
+
+.box-description-vuejs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.box-small-image-and-description {
+    width: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo-text-vuejs {
+    width: 4rem;
+}
+
+.description-logo {
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+.box-circle {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.image-circle-1 {
+    background-color: black;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.image-circle {
+    background-color: black;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.box-what-is-luv {
+    width: 80%;
+    height: 132vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 7rem;
+}
+
+.text-question-luv {
+    color: #A4DAF2;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.title-luv {
+    font-size: 4em;
+    width: 85%;
+}
+
+.paragraph-luv {
+    font-size: 2.5em;
+    line-height: 5rem;
+    font-weight: 300;
+}
+
+.background-exemple-vue {
+    background-image: url(assets/linha-de-código.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 117vh;
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-bottom: 12rem;
+}
+
+.box-associate-program {
+    width: 80%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 7rem;
+}
+
+.title-associate-program {
+    color: #A4DAF2;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.subtitle-associate-program {
+    font-size: 5em;
+    width: 76%;
+    font-weight: 400;
+}
+
+.paragraph-associate-program {
+    font-size: 2.5em;
+    line-height: 5rem;
+    font-weight: 300;
+}
+
+.box-images-vuejs {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5rem 0;
+}
+
+.logos-vuejs {
+    width: 33%;
+    height: 19rem;
+}
+
+.logos-vuejs-1 {
+    width: 35%;
+    height: 10rem;
+}
+
+.box-background-blue-second-part {
+    background-color: #183A9C;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-text-second-part-blue {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
