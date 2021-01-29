@@ -554,3 +554,98 @@
     font-weight: 400;
     margin-bottom: 5rem;
 }
+
+.box-dice-email {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -12rem;
+}
+
+.title-your-email {
+    font-size: 3em;
+}
+
+.box-email {
+    width: 80%;
+    height: 7rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 15px;
+    font-size: 2.2em;
+    padding: 2rem;
+}
+
+.button-email {
+    width: 50%;
+    height: 7rem;
+    background-color: #12D692;
+    border: none;
+    border-radius: 25px;
+    color: #F1F1F4;
+    font-size: 2em;
+}
+
+.container-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.box-luv {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 10rem;
+    border-bottom: 1px solid black;
+}
+
+.image-green {
+    width: 4rem;
+    height: 4rem;
+}
+
+.text-footer {
+    font-size: 3em;
+}
+
+#text-footer {
+    margin-left: 2rem;
+}
+
+.box-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 10rem;
+    border-bottom: 1px solid black;
+}
+
+.seta {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid black;
+}
+
+.text-footer-second {
+    font-size: 2.3em;
+}
+
+
+.box-logos-footer {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.logo-footer {
+    width: 6rem;
+}
