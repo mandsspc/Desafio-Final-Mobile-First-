@@ -6,11 +6,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        <!-- <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet"> -->
         <title>Mobile First</title>
     </head>
     <body>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script> -->
         <script src="script.js"></script>
         <header>
             <section class="section-nav">
@@ -18,11 +16,6 @@
                     <a class="icon-hamburguer" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
                     </a>
-                    <div id="myLinks">
-                        <a class="link-nav" href="#newcourse">News Course</a>
-                        <a class="link-nav" href="#whatisluv">Whats is Luv?</a>
-                        <a class="link-nav" href="#associateprogram">Associate Program</a>
-                    </div>
                 </nav>
                 <div>
                     <button class="button-nav">
@@ -30,6 +23,14 @@
                     </button>
                 </div>
             </section>
+                <div id="myLinks">
+                    <a class="link-nav" href="#newcourse">News Course</a>
+                    <a class="link-nav" href="#whatisluv">Whats is Luv?</a>
+                    <a class="link-nav" href="#associateprogram">Associate Program</a>
+                    <a class="link-nav" href="#testimonial">Testimonial</a>
+                    <a class="link-nav" href="#priceofcourses">Price of Courses</a>
+                    <a class="link-nav" href="#contact">Contact</a>
+                </div>
             <div class="box-background-blue">
                 <div class="box-text-blue">
                     <h3 class="text-one">
@@ -129,7 +130,7 @@
                 <img src="assets/Rectangle5.png" alt="" class="logos-vuejs">
             </div>
             <div class="box-background-blue-second-part">
-                <div class="box-text-second-part-blue">
+                <div class="box-text-second-part-blue" id="testimonial">
                     <h3 class="title-testimonial">
                         Testimonial
                     </h3>
@@ -161,7 +162,7 @@
                         <div class="image-circle-white-1"></div>
                     </div>
                 </div>
-                <div class="box-text-start-learning">
+                <div class="box-text-start-learning" id="priceofcourses">
                     <p class="title-start-learning">
                         Start learning today
                     </p>
@@ -172,7 +173,7 @@
                         Each course has real life challenging but exciting ideas of varying complexity to build that will show you how to start, move on.
                     </p>
                 </div>
-                <div class="container-buy-cursor-slide" id="slider">
+                <div class="container-buy-cursor-slide">
                     <div class="box-buy-cursor" id="div1">
                         <div class="box-title-cursor">
                             <h2 class="title-buy-cursor">Access Forever</h2>
@@ -200,61 +201,6 @@
                             <button class="button-buy-cursor">Get started learning</button>
                         </div>
                     </div>
-                        <!-- 
-                    <div class="box-buy-cursor">
-                        <div class="box-title-cursor">
-                            <h2 class="title-buy-cursor">Access Forever</h2>
-                            <p class="value-buy-cursor">$89</p>
-                        </div>
-                        <div class="box-points-buy-cursor">
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">Acess all contente</p>
-                            </div>
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">Acess forever</p>
-                            </div>
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">I to I Support</p>
-                            </div>
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">Professional Feedback</p>
-                            </div>
-                        </div>
-                        <div class="box-button-buy-cursor">
-                            <button class="button-buy-cursor">Get started learning</button>
-                        </div>
-                    </div>
-                    <div class="box-buy-cursor">
-                        <div class="box-title-cursor">
-                            <h2 class="title-buy-cursor">Access Forever</h2>
-                            <p class="value-buy-cursor">$79</p>
-                        </div>
-                        <div class="box-points-buy-cursor">
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">Acess all contente</p>
-                            </div>
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">Acess forever</p>
-                            </div>
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">I to I Support</p>
-                            </div>
-                            <div class="item-buy-cursor">
-                                <img src="assets/certo-51.png" alt="" class="image-ok-buy-cursor">
-                                <p class="description-buy-cursor">Professional Feedback</p>
-                            </div>
-                        </div>
-                        <div class="box-button-buy-cursor">
-                            <button class="button-buy-cursor">Get started learning</button>
-                        </div>
-                    </div> -->
                     <div class="box-circle-buy">
                         <button class="image-circle-white"></button>
                         <button class="image-circle-white"></button>
@@ -295,7 +241,7 @@
                     <div class="seta"></div>
                 </div>
             </div>
-            <div class="container-footer">
+            <div class="container-footer" id="contact">
                 <h3 class="text-footer-second">Get in touch</h3>
                 <div class="box-logos-footer">
                     <a href="#"><img src="assets/iconegit.png" alt="" class="logo-footer"></a>

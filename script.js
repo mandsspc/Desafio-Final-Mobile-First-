@@ -6,14 +6,3 @@ function myFunction() {
       x.style.display = "none";
     }
   }
-
-  /* var visibilidade = true
-  function aparecerocultar() {
-    if (visibilidade) {
-      document.getElementById("div1").style.display = "none";
-      visibilidade = false
-    } else {
-      document.getElementById("div1").style.display = "block";
-      visibilidade = true
-    }
-  } */
